@@ -1,0 +1,52 @@
+html{
+    font-size: 19px;
+}
+
+body{
+    background-color: aqua;
+    color: black;
+}
+
+a{
+    color: brown;
+}
+
+a:visited{
+    color: burlywood;
+}
+
+a:hover, a:active{
+        color: brown;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    
+    
+}
+
+a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+a:hover {
+    background-color: rgba(167, 19, 19, 0.568);
+    color: rgba(223, 247, 11, 0.705);
+}
+
+a.active {
+    background-color: #04AA6D;
+    color: white;
+
+table, tr, th, td, caption {
+    border: 1px solid #eee;
+    font-family: 'courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem
+}
